@@ -1,6 +1,6 @@
 import express from 'express';
 import mongoose from 'mongoose';
-import apiRouter from './routes';
+import apiRouter from './routes.js';
 
 const app = express();
 const PORT = process.env.PORT ? Number(process.env.PORT) : 8000;
